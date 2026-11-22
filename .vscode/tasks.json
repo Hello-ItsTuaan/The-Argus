@@ -1,0 +1,26 @@
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run C++",
+            "type": "shell",
+            "command": "/home/ilovelinux/runcpp.sh",
+            "args": [
+                "${file}"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": false,
+                "reveal": "always",
+                "focus": false,
+                "panel": "dedicated",
+                "clear": true,
+                "showReuseMessage": false
+            }
+        }
+    ]
+}
