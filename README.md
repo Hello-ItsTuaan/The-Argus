@@ -22,29 +22,23 @@ saved between sessions. No external dependencies required.
 
 ### Build
 
-```bash
-cmake -S . -B build
-cmake --build build
-```
+    cmake -S . -B build
+    cmake --build build
 
 ### Run
 
-```bash
-./build/argus          # Linux / macOS
-.\build\argus.exe      # Windows
-```
+    ./build/argus          # Linux / macOS
+    .\build\argus.exe      # Windows
 
 ## Project Structure
 
-```
-src/
-├── core/      Product and inventory logic
-├── cli/       Command-line interface
-└── main.cpp   Entry point
-tests/         Unit tests
-data/          Sample inventory files
-docs/          Notes and screenshots
-```
+    src/
+    ├── core/      Product and inventory logic
+    ├── cli/       Command-line interface
+    └── main.cpp   Entry point
+    tests/         Unit tests
+    data/          Sample inventory files
+    docs/          Notes and screenshots
 
 ## Roadmap
 

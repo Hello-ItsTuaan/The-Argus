@@ -66,3 +66,10 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Argus build and editor caches
+build/
+.cache/
+*.exe
+*.o
+compile_commands.json
